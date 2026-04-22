@@ -7,9 +7,9 @@ import shutil
 
 app = FastAPI()
 
-MODEL_PATH = "/mnt/data0/Sougata/TTS/OmniVoice/OmniVoice/examples/exp/omnivoice_finetune/Indian_26_languages/checkpoint-5000"
+MODEL_PATH = "/path/to/OmniVoice"
 
-BASE_DIR = "/mnt/data0/Sougata/TTS/API/OmniVoice/api_runtime"
+BASE_DIR = "/path/to/OmniVoice/api_runtime"
 UPLOAD_DIR = os.path.join(BASE_DIR, "uploads")
 OUTPUT_DIR = os.path.join(BASE_DIR, "outputs")
 
